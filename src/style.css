@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .team-grid > div:nth-child(2n) {
     transform: translateY(-8rem);
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .team-grid > div:nth-child(3n+2) {
     transform: translateY(-8rem);
   }
